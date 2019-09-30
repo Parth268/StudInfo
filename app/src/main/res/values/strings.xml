@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">StudInfo</string>
+    <string name="register"><b><i>pending</i></b></string>
+    <string name="title_activity_profile_navigation">profile_navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="edit">Edit</string>
+    <string name="refresh">Refresh</string>
+    <array name="department">
+        <item>COMPUTER</item><item>CIVIL</item><item>ELECTRONICCOMMUNCATION</item><item>INSTRUMENTCONTROL</item><item>ELECTRIC</item>
+    </array>
+    <array name="semester">
+        <item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item>
+    </array>
+</resources>

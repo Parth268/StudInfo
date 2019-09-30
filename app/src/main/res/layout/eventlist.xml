@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/collegename"
+        android:layout_width="130dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="50dp"
+        android:text="Loading....."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cityofevent"
+        android:layout_width="122dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Loading....."
+        app:layout_constraintEnd_toEndOf="@+id/Dateofevent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Dateofevent"
+        app:layout_constraintTop_toBottomOf="@+id/Dateofevent" />
+
+    <TextView
+        android:id="@+id/eventname"
+        android:layout_width="128dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="12dp"
+        android:text="Loading....."
+        app:layout_constraintEnd_toEndOf="@+id/collegename"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/collegename"
+        app:layout_constraintTop_toBottomOf="@+id/collegename" />
+
+    <TextView
+        android:id="@+id/Dateofevent"
+        android:layout_width="123dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="12dp"
+        android:text="Loading....."
+        app:layout_constraintEnd_toEndOf="@+id/eventname"
+        app:layout_constraintStart_toStartOf="@+id/eventname"
+        app:layout_constraintTop_toBottomOf="@+id/eventname" />
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Event name "
+        app:layout_constraintEnd_toEndOf="@+id/college"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/college"
+        app:layout_constraintTop_toBottomOf="@+id/college" />
+
+    <TextView
+        android:id="@+id/college"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="110dp"
+        android:text="College name "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="City"
+        app:layout_constraintEnd_toEndOf="@+id/date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/date"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Date"
+        app:layout_constraintEnd_toEndOf="@+id/event"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/event"
+        app:layout_constraintTop_toBottomOf="@+id/event" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="191dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

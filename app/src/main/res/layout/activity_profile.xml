@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="432dp"
+
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="16dp"
+        android:tint="@color/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="NAME"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/enrollment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="31dp"
+        android:text="ENROLLMENT"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/college"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="13dp"
+        android:text="COLLEGE NAME"
+        android:textSize="15dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewcollege"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginBottom="154dp"
+        android:text="MOBILE NO"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewdob"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="32dp"
+        android:text="DEPARTMENT"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/mobile" />
+
+    <TextView
+        android:id="@+id/semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="31dp"
+        android:text="SEMESTER"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/department" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="81dp"
+        android:text="EMAIL ADDRESS"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/emailv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="15dp"
+        android:text="VERIFICATION"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textViewname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:text="Updating"
+        app:layout_constraintBottom_toTopOf="@+id/textViewenrollment"
+        app:layout_constraintEnd_toEndOf="@+id/textViewmobile"
+        app:layout_constraintStart_toStartOf="@+id/textViewmobile" />
+
+    <TextView
+        android:id="@+id/textViewenrollment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updating"
+        app:layout_constraintBaseline_toBaselineOf="@+id/enrollment"
+        app:layout_constraintStart_toStartOf="@+id/textViewname" />
+
+    <TextView
+        android:id="@+id/textViewcollege"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="31dp"
+        android:text="Updating"
+        app:layout_constraintBottom_toTopOf="@+id/textViewmobile"
+        app:layout_constraintStart_toStartOf="@+id/textViewmobile" />
+
+    <TextView
+        android:id="@+id/textViewmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="30dp"
+        android:text="Updating"
+        app:layout_constraintBottom_toTopOf="@+id/department"
+        app:layout_constraintStart_toEndOf="@+id/college" />
+
+    <TextView
+        android:id="@+id/textViewdepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="Updating"
+        app:layout_constraintStart_toStartOf="@+id/textViewmobile"
+        app:layout_constraintTop_toBottomOf="@+id/textViewmobile" />
+
+    <TextView
+        android:id="@+id/textViewsemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Updating"
+        app:layout_constraintStart_toStartOf="@+id/textViewdob"
+        app:layout_constraintTop_toBottomOf="@+id/textViewdepartment" />
+
+    <TextView
+        android:id="@+id/textViewdob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:text="Updating"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dob"
+        app:layout_constraintEnd_toEndOf="@+id/textViewverification" />
+
+    <TextView
+        android:id="@+id/textViewverification"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="Updating"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/dob" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="156dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="114dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

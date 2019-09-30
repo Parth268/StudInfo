@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addevent">
+
+
+    <Button
+        android:id="@+id/buttonaddevent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="269dp"
+        android:background="@drawable/color2"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextcity" />
+
+    <EditText
+        android:id="@+id/editTextcollege"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="College name "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextevent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextevent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:hint="Event name "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextcollege" />
+
+    <EditText
+        android:id="@+id/editTextdate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextcity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextevent" />
+
+    <EditText
+        android:id="@+id/editTextcity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/buttonaddevent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextdate" />
+
+</android.support.constraint.ConstraintLayout>

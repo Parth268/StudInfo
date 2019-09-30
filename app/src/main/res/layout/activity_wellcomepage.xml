@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wellcomepage">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/well" />
+
+    <TextView
+        android:id="@+id/wellcome"
+        android:layout_width="215dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="61dp"
+        android:text="WELLCOME"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="192dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="296dp"
+        android:text="STUDINFO"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/wellcome"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="103dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="8dp"
+        android:text="TO"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/wellcome"
+        app:layout_constraintTop_toBottomOf="@+id/wellcome" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="122dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/wellcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon1" />
+</android.support.constraint.ConstraintLayout>
